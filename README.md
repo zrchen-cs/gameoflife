@@ -16,20 +16,21 @@
 * 提供的代码经Dev-C++ 5.11环境编译测试
 
 ## 命令行说明
-* 本程序的命令行有三种格式：
+* 采用原始生命游戏规则：
 ```
  gameoflife ori <max_iter_everytime> <times>
-   表示采用原始生命游戏规则
    <max_iter_everytime>: 每次最大迭代次数
    <times>: 运行次数
-
+```
+* 探索不同超参数情况下的个体存活数：
+```
  gameoflife try <max_iter_everytime> <max_d>
-   表示探索不同超参数情况下的个体存活数
    <max_iter_everytime>: 每次最大迭代次数
    <max_d>：探索视野距离极限d的最大值（从1开始）
-
+```
+* 根据指定的移动策略超参数运行扩展的生命游戏：
+```
  gameoflife set <max_iter_everytime> <d> <rational_count> <times>
-   表示根据指定的移动策略超参数运行扩展的生命游戏
    <max_iter_everytime>: 每次最大迭代次数
    <d>：视野距离极限
    <rational_count>：视野中理想个体数
