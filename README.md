@@ -1,2 +1,2 @@
 # gameoflife
-An extended version of Conway's GAME OF LIFE implemented with C++.
+这是一个用C++实现的生命游戏。
